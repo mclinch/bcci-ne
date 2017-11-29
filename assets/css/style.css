@@ -67,6 +67,11 @@ body {
   letter-spacing: -.05rem;
 }
 
+.client-logos {
+  width: 260px;
+
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -88,4 +93,5 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+  
 }

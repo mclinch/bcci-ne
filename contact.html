@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+    <meta name="Business Computer Consultants Inc" content="Accounting">
+    <link rel="icon" href="favicon-16-1.png">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>Business Computer Consultants, Inc. - Contact</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -16,9 +16,9 @@
     <link href="./assets/css/style.css" rel="stylesheet">
   </head>
 <body>
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	<nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
 	  <!-- <a class="navbar-brand" href="#">Business Computer Consultants Inc.</a> -->
-	  <img src="./assets/images/bcci-logo.jpeg" alt="bcci-logo" style="">
+	  <img src="./assets/images/bcci-master-logo.png" alt="bcci-logo" style width="264" height="86">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -30,27 +30,34 @@
 	      <li class="nav-item">
 	        <a class="nav-link" href="./about.html">About <span class="sr-only">(current)</span></a>
 	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Solutions</a>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Solutions</a> 
+	        <div class="dropdown-menu">
+            <a class="dropdown-item" href="./solutions.html">Solutions</a>
+            <a class="dropdown-item" href="./clients.html">Client Stories</a>
+<!--             <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a> -->
+            </div>
 	      </li>
 	      <li class="nav-item active">
 	        <a class="nav-link" href="./contact.html">Contact</a>
 	      </li>
 	    </ul>
-	    <form class="form-inline mt-2 mt-md-0">
+<!-- 	    <form class="form-inline mt-2 mt-md-0">
 	      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
 	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-	    </form>
+	    </form> -->
 	  </div>
 	</nav>
-	<div class="container marketing">
-		<div id="googleMap" style="width:100%;height:400px;"></div>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96647.68261111919!2d-96.76076811862673!3d40.800717774022154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796be59ca561265%3A0x633a859b1fd5deb9!2sLincoln%2C+NE!5e0!3m2!1sen!2sus!4v1508178290339" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<!-- <div class="container marketing"> -->
+		<div id="googleMap" style="width:100%;height:300px;"></div>
+		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96647.68261111919!2d-96.76076811862673!3d40.800717774022154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796be59ca561265%3A0x633a859b1fd5deb9!2sLincoln%2C+NE!5e0!3m2!1sen!2sus!4v1508178290339" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 
 <script>
 function myMap() {
 var mapProp= {
-    center:new google.maps.LatLng(40.8007178,-96.7607681),
+    center:new google.maps.LatLng(40.8407178,-96.7607681),
     zoom:10,
 };
 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
@@ -59,4 +66,54 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0iMEVZFAGu2JUUBOhCU09HNOviwc6NNw&callback=myMap"></script>
 
+	<!-- </div> -->
+
+
+
+		<div class="container marketing">
+	<hr class="">
+
+	<div class="row featurette">
+	  <div class="col-md-7">
+	    <h3 class="featurette-heading">Serving the greater Lincoln area. <span class="text-muted">Our client radius is over 300 miles.</span></h3>
+	    <p class="lead">We have clients in Lincoln, Beatrice, Grand Island, Omaha, and Kearney, Nebraska, and also clients in South Dakota, Iowa, Kansas City, MO, and more. 
+  </p>
+	  </div>
+	  <div class="col-md-5">
+	    <!-- <img class="featurette-image img-fluid mx-auto" src="./assets/images/bcci-rounded1.png" alt=""> -->
+	    <h2 class="featurette-heading">Lincoln Address:</h2>
+	    <p class="lead"> Headquarters
+	    <p>Business Computer Consultants 
+	    	Inc.<br>
+	    	2741 N 81st Street<br>
+Lincoln, NE 68507</p>
+		<p>P.O. Box 5229<br>
+Lincoln, NE 68505</p>
+		<p>Main: 402-466-5954<br>
+Fax: 402-466-1371</p>
+		<p>E-mail: <a href="mailto:jerry@bccine.com" target="_top">jerry@bccine.com</a></p>
+	  </div>
 	</div>
+	<hr class="featurette-divider">
+</p>
+
+
+	<!-- FOOTER -->
+	<footer>
+	  <p class="float-right"><a href="#">Back to top</a></p>
+	  <p>&copy; 2017 Business Computer Consultants, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+	</footer>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/css/ie10-viewport-bug-workaround.js"></script>
+</body>

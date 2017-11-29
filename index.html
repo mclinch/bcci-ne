@@ -4,22 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+    <meta name="Business Computer Consultants Inc" content="Accounting">
+    <link rel="icon" href="favicon-16-1.png">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>Business Computer Consultants, Inc.</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/>
     <!-- Custom styles for this template -->
     <link href="./assets/css/style.css" rel="stylesheet">
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
       <!-- <a class="navbar-brand" href="#">Business Computer Consultants Inc.</a> -->
-      <img src="./assets/images/bcci-logo.jpeg" alt="bcci-logo" style="">
+      <img src="./assets/images/bcci-master-logo-wht.png" alt="bcci-logo" style width="264" height="86">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,21 +31,24 @@
           <li class="nav-item">
             <a class="nav-link" href="./about.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Solutions</a>
-          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Solutions</a> 
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./solutions.html">Solutions</a>
+            <a class="dropdown-item" href="./clients.html">Client Stories</a>
+<!--             <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a> -->
+            </div>
+        </li>
           <li class="nav-item">
             <a class="nav-link" href="./contact.html">Contact</a>
           </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -53,33 +56,33 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide" src="./assets/images/vlad-shapochnikov-127858.jpg" alt="First slide">Photo by Vlad Shapochnikov on Unsplash
+          <img class="first-slide" src="./assets/images/1vlad-shapochnikov-crop.png" alt="First slide">Photo by Vlad Shapochnikov on Unsplash
           <div class="container">
             <div class="carousel-caption d-none d-md-block text-left">
-              <h1>Experienced Leader Since 1989</h1>
+              <h1>Business Technology Leader Since 1989</h1>
               <p>Located in Lincoln, Nebraska, we have been providing superior accounting solutions for Midwestern businesses since 1989.</p>
               <p></p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <p><a class="btn btn-lg btn-primary" href="./about.html" role="button">Learn More</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="second-slide" src="./assets/images/vlad-shapochnikov-127858.jpg" alt="Second slide">
+          <img class="second-slide" src="./assets/images/1vlad-shapochnikov-crop.png" alt="Second slide">
           <div class="container">
             <div class="carousel-caption d-none d-md-block">
               <h1>Award Winning Service</h1>
-              <p>Business Computer Consultants Inc. is named an Open Systems Inc. Top Partner and Top 25 Reseller for the 20th year in a row.  Open Systems ...</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <p>Business Computer Consultants Inc. has been named an Open Systems Inc. Top Partner and Top 25 Reseller every year since 1992.</p>
+              <p><a class="btn btn-lg btn-primary" href="./solutions.html" role="button">Learn More</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="third-slide" src="./assets/images/vlad-shapochnikov-127858.jpg" alt="Third slide">
+          <img class="third-slide" src="./assets/images/1vlad-shapochnikov-crop.png" alt="Third slide">
           <div class="container">
             <div class="carousel-caption d-none d-md-block text-right">
               <h1>Comprehensive Technology Solutions</h1>
               <p>We provide superior accounting solutions, complete hardware, networking, internet, e-mail, and software solutions for our clients.  Our extensive experience includes Windows, Windows Servers,and Linux environments.  Training sessions are available on a continuing basis to support our user community.  On-site training tailored specifically to each clients' needs is also provided.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse Solutions</a></p>
+              <p><a class="btn btn-lg btn-primary" href="./solutions.html" role="button">Browse Solutions</a></p>
             </div>
           </div>
         </div>
@@ -106,71 +109,33 @@
         <div class="col-lg-4">
           <img class="rounded-circle" src="./assets/images/rawpixel-com-323215.jpg" alt="Generic placeholder image" width="140" height="140">
 
-          <h2>Award Winning</h2>
-          <p>Business Computer Consultants Inc. is named an Open Systems Inc. Top Partner and Top 25 Reseller for the 20th year in a row.  Open Systems is...</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <h2>Award Winning Service</h2>
+          <p>Business Computer Consultants Inc. has been named an Open Systems Inc. Top Partner and Top 25 Reseller every year since 1992.  Discover how Open Systems is the most scalable, affordable ERP Accounting Software on the market.</p>
+          <p><a class="btn btn-secondary" href="./solutions.html" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="rounded-circle" src="./assets/images/alejandro-escamilla-7.jpg" alt="Generic placeholder image" width="140" height="140"><!-- <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@alejandroescamilla?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Alejandro Escamilla"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Alejandro Escamilla</span></a> -->
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <img class="rounded-circle" src="./assets/images/alejandro-escamilla-7.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Comprehensive Technology Solutions</h2>
+          <p>We provide superior accounting solutions, complete hardware, networking, internet, e-mail, and software solutions for our clients.  </p>
+          <p><a class="btn btn-secondary" href="./solutions.html" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="rounded-circle" src="./assets/images/rawpixel-com-267079.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <h2>See what our clients have to say.</h2>
+          <p>We have built lasting relationships with some of the midwest's most trusted companies in retail, manufacturing, accounting, and food.</p>
+          <p><a class="btn btn-secondary" href="./clients.html" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
       </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
       <footer>
         <p class="float-right"><a href="#">Back to top</a></p>
+        <p>Business Computer Consultants, Inc.<nl>
+ 
+        <p>Call us: 402-466-5954<br>
+           
+        <p>E-mail: <a href="mailto:jerry@bccine.com" target="_top">jerry@bccine.com</a></p>
         <p>&copy; 2017 Business Computer Consultants, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
@@ -183,10 +148,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./assets/css/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script>
   </body>
 </html>
