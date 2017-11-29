@@ -20,6 +20,7 @@ body {
 .carousel-caption {
   z-index: 10;
   bottom: 3rem;
+
 }
 
 /* Declare heights because of positioning of img element */
@@ -82,6 +83,7 @@ body {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
+
   }
 
   .featurette-heading {
@@ -93,5 +95,12 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
-  
+
+    .carousel-caption p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1;
+    
+  }
+
 }
